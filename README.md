@@ -1,2 +1,2 @@
-# Albertio.github.io
-Project of internet programming class from the university.
+# SkillUp WebSite Repository 
+Project of "Ingenieria de Software" from the college.
