@@ -41,4 +41,4 @@ Detalle de oferta. <br>
 
 Para visualizacion del codigo directamente acceder a la carpeta "Code" o dar click en el siguiente enlace:
 
-<a href="https://github.com/Albertio/SkillUpWebsite/Code">Proyecto SkillUp Code</a><br>
+<a href="https://github.com/Albertio/SkillUpWebSite/tree/main/Code">Proyecto SkillUp Code</a><br>
