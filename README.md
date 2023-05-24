@@ -25,16 +25,16 @@ Menu Principal del Usuario comun. <br>
 ![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/8.jpg)
 
 Vista de Ofertas desde perspectiva Usuario. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/9.jpg)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/9.png)
 
 Visualizacion del perfil personal. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/10.jpg)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/10.png)
 
 Pestaña de postulaciones vacias. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/11.jpg)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/11.png)
 
 Pestaña de postulaciones tras postular. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/12.jpg)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/12.png)
 
 Detalle de oferta. <br>
 ![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/13.jpg)
