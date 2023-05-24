@@ -4,7 +4,7 @@ Project of "Ingenieria de Software" from the college.
 Pruebas de Funcionamiento:
 
 Pantalla de Ingreso. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/Images/1.jpg)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/1.jpg)
 
 Vista de Inicio del Administrador. <br>
 ![alt tag](https://github.com/Albertio/SkillUpWebSite/Images/2.jpg)
