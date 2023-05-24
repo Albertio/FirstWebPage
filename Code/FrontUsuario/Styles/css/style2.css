@@ -1,0 +1,188 @@
+.container {
+    display: flex;
+    height: 320px;
+    margin: 0 auto;
+    width: 640px;
+}
+
+.left {
+    background: #e2e2e5;
+    height: 90%;
+    top: 5%;
+    position: relative;
+    width: 50%;
+}
+
+.left-login {
+    background:#e2e2e5 ;
+    height: 55%;
+    top: 5%;
+    width: 25%;
+    position: fixed;
+    z-index: 0;
+    
+}
+
+.right {
+    background: #474A59;
+    box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
+    color: #F1F1F2;
+    position: relative;
+    width: 70%;
+}
+
+.right-login {
+    background: #474A59;
+    color: #F1F1F2;
+    width: 30%;
+    height: 70%;
+    position: fixed;
+    z-index: 996;
+}
+
+
+.form {
+    margin: 40px;
+    position: absolute;
+}
+
+.fondo{
+    background-image: url(../fondo5.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.page {
+    background:white;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px);
+    position: absolute;
+    place-content: center;
+    width: calc(100% - 40px);
+    z-index: 0;
+}
+
+.login {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 30px 40px 20px;
+    font-family:'Inter UI', sans-serif;
+  }
+
+.boton-AE
+{
+    background-color: #00aeef;
+    width: 10%;
+    height: 10%;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Inter UI', sans-serif;
+    cursor: pointer;
+    z-index:997;
+    border-radius: 30px;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.otro-botonAE{
+    background-color: #00aeef;
+    padding: 2% 3%;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Inter UI', sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.boton-ingresar{
+    background-color: #00aeef;
+    font-weight: bold;
+    font-family: 'Inter UI', sans-serif;
+    border-radius: 30px;
+    width: 8%;
+    height: 6%;
+    border: 2px solid #00aeef;;
+    position:fixed;
+    z-index:999;
+    cursor:pointer;
+}
+
+.boton-regresar{
+    background-color: #00aeef;
+    font-size: 90%;
+    font-weight: bold;
+    font-family: 'Inter UI', sans-serif;
+    border-radius: 30px;
+    width: 8%;
+    height: 5.5%;
+    border: 2px solid #00aeef;;
+    position:fixed;
+    z-index:998;
+    cursor:pointer;
+
+}
+
+.labels{
+
+    font-size:90%;
+    font-family: 'Inter UI', sans-serif;
+    font-weight: bold;
+    margin: 30px 20px 20px;
+    z-index:999;
+    
+}
+
+.input-login{
+
+    border-radius: 15px 10px 15px 10px;
+    border: 2px solid #ccc;
+    margin: 5px 20px 0px;
+    z-index:999;
+    
+}
+
+.input-registro{
+
+    border-radius: 15px 10px 15px 10px;
+    border: 2px solid #000;
+    margin: 5px 20px 0px;
+    z-index:999;
+}
+
+input[type="file"] ::placeholder{
+    color: #000;
+  }
+
+
+input[type="file"]::-webkit-file-upload-button
+{
+    background-color:#00aeef;
+    border: 2px solid #00aeef;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: 'Inter UI', sans-serif;
+    margin: 5px 20px 0px;
+}
+
+
+.titulo-login{
+    position:fixed; 
+    font-family: 'Inter UI', sans-serif;
+    z-index:0;
+    font-size:100%;
+    top:30%;
+    right:31%;
+}

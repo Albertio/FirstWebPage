@@ -1,0 +1,353 @@
+
+body{
+  overflow-y: scroll;
+}
+.container{
+  position: relative;
+  height: 300px; 
+}
+
+.left {
+  background-image: url(../Styles/negocios2.jpg);
+  background-size: 100% 100%;
+  height: 70%;
+  width: 25%;
+  position: fixed;
+  top: 25%;
+  left:5%;
+  
+}
+
+.left-imagen{
+
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 70%;
+  position: fixed;
+  z-index: 0;
+  border-radius: 2em 0em 0em 2em;
+}
+
+.right {
+  background: #474A59;
+  color: #F1F1F2;
+  position: fixed;
+  width: 64%;
+  height:70%;
+  top:25%;
+  left:30%;
+  z-index:1;
+  border-radius: 0em 2em 2em 0em;
+}
+
+.boton-opcion{
+  background-color: #00aeef;
+  width: 10%;
+  height: 10%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  cursor: pointer;
+  z-index:999;
+  border-radius: 30px;
+  position:fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.otro-botonopcion{
+
+  background-color: #00aeef;
+  width: 8%;
+  height: 8%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  cursor: pointer;
+  z-index:999;
+  border-radius: 30px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-ofertas{
+
+  background-color: #474A59;
+  width: 10%;
+  height: 10%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  cursor: pointer;
+  z-index:999;
+  border-radius: 30px;
+  position:fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-siguiente{
+
+  background-color: #00aeef;
+  width: 8%;
+  height: 5%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  cursor: pointer;
+  z-index:999;
+  border-radius: 30px;
+  position:fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.otro-botonsiguiente{
+  background-color: #00aeef;
+  width:25%;
+  height: 10%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  cursor: pointer;
+  z-index:999;
+  border-radius: 30px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.boton-segundo{
+  background-color: #00aeef;
+  width: 10%;
+  height: 10%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  z-index:999;
+  border-radius: 30px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+}
+.label-formulario{
+
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  position: fixed;
+  z-index:999;
+}
+
+.otro-label-formulario{
+
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  width: 90%;
+  z-index:999;
+}
+
+.input-formulario{
+
+  font-family: 'Inter UI', sans-serif;
+  position: fixed;
+  width: 15%;
+  height: 5%;
+  border-radius: 15px 10px 15px 10px;
+  border: 2px solid #474A59;
+}
+
+.recuadro-texto{
+
+  width: 20%;
+  height: 20%;
+  position: fixed;
+  border-radius: 15px 10px 15px 10px;
+  border: 2px solid #474A59;
+}
+
+.Bienvenida{
+
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  color: #000;
+  position: fixed;
+  z-index:996;
+
+}
+
+.right-segundo{
+  background: #474A59;
+  width: 60%;
+  height: 70%;
+  position: fixed;
+  z-index: 900;
+  border-radius: 0% 2em 2em 0%;
+
+}
+
+.left-segundo{
+  background: #D8D8D8;
+  width: 30%;
+  height: 70%;
+  position: fixed;
+  z-index: 999;
+  border-radius: 10% 0% 0% 10%;
+
+}
+
+.mini-rectangulo{
+  background: #D8D8D8;
+  border-radius: 2em;
+  position: fixed;
+  z-index:2;
+}
+
+.otro-minirectangulo{
+  background: #D8D8D8;
+  border-radius: 2em;
+  position: absolute;
+  border: 2px solid #474A59;
+  z-index:2;
+}
+
+.fondo{
+  background: #474A59;
+  width: 90%;
+  height: 75%;
+  position: fixed;
+  z-index: 998;
+  border-radius: 10% 10% 10% 10%;
+  margin:auto;
+}
+
+.imagen-perfil{
+
+  width:200px;
+  height:200px;
+  object-fit: cover;
+}
+
+.imagen-perfil img{
+
+  position: absolute;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 19%;
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.otro-imagen-perfil{
+
+  width:350px;
+  height:300px;
+  object-fit: cover;
+}
+
+.otro-imagen-perfil img{
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+
+
+.imagen-ofertas{
+  background-color: #D8D8D8;
+  width:500px;
+  height:400px;
+  object-fit: cover;
+  border-radius: 2em;
+  position: fixed;
+}
+
+
+.imagen-ofertas img{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 19%;
+  width: 30%;
+  height: 50%;
+  object-fit: cover;
+}
+
+input[type="file"] ::placeholder{
+  color: #000;
+}
+
+
+input[type="file"]::-webkit-file-upload-button
+{
+  background-color:#00aeef;
+  border: 2px solid #00aeef;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  margin: 5px 20px 0px;
+}
+
+.titulo{
+
+  font-size:30px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  position: fixed;
+}
+
+.fila-izquierda{
+  width: 18%;
+  height: 10%;
+  font-weight: bold;
+  position: fixed;
+  border-radius: 2em 0em 0em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fila-medio{
+  width: 18%;
+  height: 10%;
+  font-weight: bold;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:2;
+}
+
+.fila-derecha{
+  width: 18%;
+  height: 10%;
+  font-weight: bold;
+  position: fixed;
+  border-radius: 0em 2em 2em 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

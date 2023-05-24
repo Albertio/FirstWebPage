@@ -1,0 +1,43 @@
+  /* Estilos para los botones */
+.CajaBoton {
+    text-align: center; /* Centra el contenido de los botones horizontalmente */
+  }
+  
+  .CajaBoton a {
+    display: inline-block;
+    margin: 10px; /* Ajusta el margen entre los botones según necesites */
+    background-color: rgb(0, 0, 255); /* Cambia el color de fondo según tus preferencias */
+    color: white;
+    font-size: 20px; /* Cambia el tamaño de fuente según tus preferencias */
+    padding: 10px 20px; /* Ajusta el relleno (padding) según necesites */
+  }
+  
+  .CajaNombre {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .CajaInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    padding: 30px;
+  }
+  
+  
+  .CajaId {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px; /* Ajusta el espacio entre el ID y el nombre */
+  }
+  
+  body {
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

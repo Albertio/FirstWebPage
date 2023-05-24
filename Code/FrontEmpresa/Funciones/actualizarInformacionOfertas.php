@@ -1,0 +1,49 @@
+<?php
+	//ofertas_elimina.php
+	require "conecta.php";
+	$con = conecta();
+
+	//Recibe variables
+	$id = $_POST['id'];
+	$nombre = $_POST['nombre'];
+	$descripcion = $_POST['descripcion'];
+	$sueldo = $_POST['sueldo'];
+	$archivo_n = '';
+	$archivo = '';
+
+	$file_name = $_FILES['archivo']['name'];    //Nombre real del archivo
+	
+
+	if($file_name != '')
+	{
+		$file_tmp = $_FILES['archivo']['tmp_name']; //Nombre temporal del archivo
+		$cadena = explode(".", $file_name);         //Tomar solo el ultimo substrings tras "."
+		$ext = $cadena[1];
+		$dir = "../../FrontAdministrador/Ofertas/Archivos/";
+		$file_enc = md5_file($file_tmp);
+
+		$fileName1 = "$file_enc" . "." . "$ext";
+		copy($file_tmp, $dir.$fileName1);
+
+		$archivo_n = $file_name;
+		$archivo = $file_enc . "." . $ext; 
+
+		$sql = "UPDATE ofertas
+		SET archivo = '$archivo',
+		archivo_n = '$archivo_n'
+		WHERE id_primary = '$id'
+		AND eliminado = 0;";
+		$num = $con->query($sql);
+	}
+
+	$sql = "UPDATE ofertas
+		SET nombre = '$nombre',
+		sueldo = '$sueldo',
+		descripcion = '$descripcion'
+		WHERE id_primary = '$id'
+		AND eliminado = 0;";
+	
+	$num = $con->query($sql);
+
+	header("Location: ../Ofertas/ofertas.php");
+?> 

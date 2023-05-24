@@ -1,0 +1,124 @@
+
+.left {
+  background-image: url(../Styles/negocios2.jpg);
+  background-size: 100% 100%;
+  height: 70%;
+  width: 25%;
+  position: fixed;
+  top: 25%;
+  left:5%;
+  
+}
+
+.right {
+  background: #474A59;
+  color: #F1F1F2;
+  position: fixed;
+  width: 64%;
+  height:70%;
+  top:25%;
+  left:30%;
+}
+
+.boton-opcion{
+  background-color: #00aeef;
+  width: 10%;
+  height: 10%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  cursor: pointer;
+  z-index:999;
+  border-radius: 30px;
+  position:fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+}
+
+.boton-segundo{
+  background-color: #00aeef;
+  width: 10%;
+  height: 10%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  z-index:999;
+  border-radius: 30px;
+  position:fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+}
+.label-formulario{
+
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  position: fixed;
+  z-index:999;
+}
+
+.input-formulario{
+
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  position: fixed;
+  width: 15%;
+  height: 5%;
+  border-radius: 15px 10px 15px 10px;
+  border: 2px solid #474A59;
+}
+
+.recuadro-texto{
+
+  width: 20%;
+  height: 20%;
+  position: fixed;
+  border-radius: 15px 10px 15px 10px;
+  border: 2px solid #474A59;
+}
+
+.Bienvenida{
+
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  color: #000;
+  position: fixed;
+  z-index:996;
+
+}
+
+.right-segundo{
+  background: #474A59;
+  width: 60%;
+  height: 70%;
+  position: fixed;
+  z-index: 999;
+  border-radius: 0% 10% 10% 0%;
+
+}
+
+.left-segundo{
+  background: #D8D8D8;
+  width: 30%;
+  height: 70%;
+  position: fixed;
+  z-index: 999;
+  border-radius: 10% 0% 0% 10%;
+
+}
+
+.fondo{
+  background: #474A59;
+  width: 90%;
+  height: 75%;
+  position: fixed;
+  z-index: 998;
+  border-radius: 10% 10% 10% 10%;
+  margin:auto;
+}

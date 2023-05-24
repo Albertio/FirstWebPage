@@ -1,0 +1,63 @@
+.imagen-perfil{
+
+  width:200px;
+  height:200px;
+  object-fit: cover;
+}
+
+.imagen-perfil img{
+
+  position: absolute;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  left: 19%;
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.left-segundo{
+  background: #D8D8D8;
+  width: 30%;
+  height: 69%;
+  position: fixed;
+  z-index: 998;
+  border-radius: 10% 0% 0% 10%;
+
+}
+
+.right-segundo{
+  background: #474A59;
+  width: 60%;
+  height: 69%;
+  position: fixed;
+  z-index: 900;
+  border-radius: 0% 2em 2em 0%;
+
+}
+
+.label-formulario{
+
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  z-index:999;
+}
+
+.boton-segundo{
+  background-color: #00aeef;
+  width: 10%;
+  height: 10%;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inter UI', sans-serif;
+  z-index:999;
+  border-radius: 30px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+}

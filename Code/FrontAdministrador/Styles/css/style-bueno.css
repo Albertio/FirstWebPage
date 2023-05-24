@@ -1,0 +1,100 @@
+.container{
+    position: relative;
+    height: 350px; 
+  }
+
+
+.cuadro-perfilsuperior{
+    background: #D8D8D8;
+    width: 23%;
+    height: 15%;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.cuadro-perfilinferior{
+    background: #00aeef;
+    width: 23%;
+    height: 45%;
+    position: absolute;
+    border-radius: 2em 2em 0em 0em;
+    z-index: 0;
+}
+
+.otro-label-formulario{
+
+    font-family: 'Inter UI', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    width: 90%;
+    z-index:1;
+  }
+
+.otro-imagen-perfil{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+}
+  
+.otro-imagen-perfil img{
+  
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    width: 9%;
+    height: 21%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+.boton-siguiente{
+    background-color: #00aeef;
+    width:8%;
+    height: 8%;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Inter UI', sans-serif;
+    cursor: pointer;
+    z-index:1;
+    border-radius: 30px;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.otro-botonsiguiente{
+    background-color: #D8D8D8;
+    width:6%;
+    height: 6%;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Inter UI', sans-serif;
+    cursor: pointer;
+    z-index:1;
+    border-radius: 30px;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.banner{
+    width: 100%; /* O el ancho deseado para el contenedor del banner */
+    max-width: 100%; /* Para asegurarte de que el contenedor no supere el ancho máximo de la pantalla */
+    position: relative; 
+  }
+  
+  .banner img{
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
