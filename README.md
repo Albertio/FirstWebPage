@@ -16,25 +16,25 @@ Creacion de Ofertas como Administrador / Empresa. <br>
 ![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/4.jpg)
 
 Ventana Creacion de Cuenta Empresa. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/6.jpg)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/6.png)
 
 Ventana Creacion de Cuenta Usuario. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/7.jpg)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/7.png)
 
 Menu Principal del Usuario comun. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/8.jpg)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/8.png)
 
 Vista de Ofertas desde perspectiva Usuario. <br>
 ![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/9.png)
 
 Visualizacion del perfil personal. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/10.png)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/10.jpg)
 
 Pestaña de postulaciones vacias. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/11.png)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/11.jpg)
 
 Pestaña de postulaciones tras postular. <br>
-![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/12.png)
+![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/12.jpg)
 
 Detalle de oferta. <br>
 ![alt tag](https://github.com/Albertio/SkillUpWebSite/blob/main/Images/13.jpg)
